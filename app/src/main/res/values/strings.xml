@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail_course">Detail Course</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="release_date">Release date</string>
+    <string name="description_course">Deskripsi Kelas</string>
+    <string name="example">Example</string>
+    <string name="start_learn">Mulai Belajar</string>
+    <string name="list_module">Daftar Modul</string>
+    <string name="movies">Movies</string>
+    <string name="tv_shows">Tv Shows</string>
+    <string name="favorites">Favorites</string>
+    <string name="menu_bookmark">bookmark</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="last_seen">Terakhir dilihat</string>
+    <string name="message_undo">Batalkan menghapus item sebelumnya?</string>
+    <string name="message_ok">OK</string>
+    <string name="deadline_date">Deadline %s</string>
+    <string name="share_text">Segera lihat detail film %s di aplikasi MovieCatalogue</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare ante sem, vitae commodo nunc ultricies at. Nam suscipit accumsan fermentum. Nulla egestas ipsum turpis, vel lobortis massa iaculis a. Suspendisse in pharetra arcu, eu venenatis orci. Cras sit amet consequat nibh. Proin tincidunt auctor nisl eu fringilla. Mauris et orci eget augue consequat tincidunt in a metus. Mauris sed tellus pharetra, vehicula odio vulputate, mattis massa.
+
+Nullam in congue ante. Nulla vestibulum, nisi ac porta porttitor, lorem eros euismod justo, et fermentum lorem lorem eu augue. Quisque dapibus ornare tellus vel vestibulum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis nibh id ex malesuada volutpat. Integer sed diam dictum risus ultricies sollicitudin pulvinar id diam. Etiam ac risus odio. Donec placerat est ac arcu scelerisque facilisis. Quisque malesuada felis arcu, eget venenatis nunc sagittis in. Curabitur at vulputate tellus. Mauris tempus sit amet massa vel condimentum. Maecenas eleifend tortor lacus, vel lobortis enim vehicula eget. Mauris sed sollicitudin ipsum, quis porta ipsum. Mauris vitae nibh ligula. Donec aliquam, leo sed pretium pharetra, eros tellus pharetra turpis, consectetur feugiat felis mauris quis velit.</string>
+    <string name="synopsis">Overview</string>
+    <string name="synopsis_value">A group of youths aspiring to become professional superheroes, fight in a world full of people with abilities, also known as quirks. Deku and his fellow classmates from Hero Academy face Nine, the strongest villain yet. A group of youths aspiring to become professional superheroes, fight in a world full of people with abilities, also known as quirks. Deku and his fellow classmates from Hero Academy face Nine, the strongest villain yet. A group of youths aspiring to become professional superheroes, fight in a world full of people with abilities, also known as quirks. Deku and his fellow classmates from Hero Academy face Nine, the strongest villain yet.</string>
+    <string name="genre">Animation, Action, Superheroes</string>
+    <string name="duration">User Rating: 77%</string>
+    <string name="title_dummy">My Hero Academia : Heroes Rising</string>
+    <string name="language">Language</string>
+    <string name="popularity">Popularity</string>
+    <string name="user_score">User Score</string>
+
+</resources>

@@ -1,0 +1,109 @@
+1. Unit Test Scenario
+
+- MoviesViewModelTest
+	Memanipulasi data ketika pemanggilan data movie di kelas repository.
+	Memastikan metode di kelas repository terpanggil.
+	Melakukan pengecekan data movie apakah null atau tidak.
+	Melakukan pengecekan jumlah data movie apakah sudah sesuai atau belum.
+
+-TvShowsViewModelTest:
+	Memanipulasi data ketika pemanggilan data tv show di kelas repository.
+	Memastikan metode di kelas repository terpanggil.
+	Melakukan pengecekan data tv show apakah null atau tidak.
+	Melakukan pengecekan jumlah data tv show apakah sudah sesuai atau belum.
+
+-DetailContentViewModelTest:
+	Memuat Movies:
+	Memanipulasi data ketika pemanggilan data movie di kelas repository.
+	Memastikan metode di kelas repository terpanggil.
+	Melakukan pengecekan data movie apakah null atau tidak.
+	Melakukan pengecekan jumlah data movie apakah sudah sesuai atau belum.
+
+	Memuat TvShows:
+	Memanipulasi data ketika pemanggilan data tv show di kelas repository.
+	Memastikan metode di kelas repository terpanggil.
+	Melakukan pengecekan data tv show apakah null atau tidak.
+	Melakukan pengecekan jumlah data tv show apakah sudah sesuai atau belum.
+
+-FavoriteViewModelTest
+	Memuat Movies:
+	Memanipulasi data ketika pemanggilan data movie di kelas repository.
+	Memastikan metode di kelas repository terpanggil.
+	Melakukan pengecekan data movie apakah null atau tidak.
+	Melakukan pengecekan jumlah data movie apakah sudah sesuai atau belum.
+
+	Memuat TvShows:
+	Memanipulasi data ketika pemanggilan data tv show di kelas repository.
+	Memastikan metode di kelas repository terpanggil.
+	Melakukan pengecekan data tv show apakah null atau tidak.
+	Melakukan pengecekan jumlah data tv show apakah sudah sesuai atau belum.
+
+2. Instrumental Test Scenario
+
+-Menampilkan data movies
+	Memastikan rv_movies dalam keadaan tampil.
+	Gulir rv_movies ke posisi data terakhir.
+
+-Menampilkan data detail movies
+	Memberi tindakan klik pada data pertama di rv_movies.
+	Memastikan TextView untuk title tampil.
+	Memastikan TextView untuk tagline tampil.
+	Memastikan TextView untuk release date tampil.
+	Memastikan TextView untuk userScore tampil.
+	Memastikan TextView untuk genre tampil.
+	Memastikan TextView untuk overview tampil.
+
+-Menampilkan data favorite movie
+	Memberi tindakan klik pada data pertama di rv_movies.
+	Memberi tindakan klik pada menu favorite.
+	Memberi tindakan kembali ke awal.
+	Memberi tindakan klik pada bottom navbar favorite.
+	Memastikan rv_movies dalam keadaan tampil.
+	Memberi tindakan klik pada data pertama di rv_movies.
+	Memastikan TextView untuk title tampil.
+	Memastikan TextView untuk popular tampil.
+	Memastikan TextView untuk release date tampil.
+	Memastikan TextView untuk userScore tampil.
+	Memastikan TextView untuk language tampil.
+	Memastikan TextView untuk overview tampil.
+	Memberi tindakan kembali ke awal.
+
+-Menampilkan data tvShows
+	Memberi tindakan klik pada data pertama di rv_tvshows.
+	Memberi tindakan klik pada menu favorite.
+	Memberi tindakan kembali ke awal.
+	Memberi tindakan klik pada bottom navbar favorite.
+	Memastikan rv_movies dalam keadaan tampil.
+	Memberi tindakan klik pada data pertama di rv_tvshows.
+	Memastikan TextView untuk title tampil.
+	Memastikan TextView untuk popular tampil.
+	Memastikan TextView untuk release date tampil.
+	Memastikan TextView untuk userScore tampil.
+	Memastikan TextView untuk language tampil.
+	Memastikan TextView untuk overview tampil.
+	Memberi tindakan kembali ke awal.
+
+-Menampilkan data detail tvShows
+	Memberi tindakan klik pada data pertama di rv_tvshows.
+	Memastikan TextView untuk title tampil.
+	Memastikan TextView untuk tagline tampil.
+	Memastikan TextView untuk release date tampil.
+	Memastikan TextView untuk userScore tampil.
+	Memastikan TextView untuk genre tampil.
+	Memastikan TextView untuk overview tampil.
+
+-Menampilkan data favorite tvShows
+	Memberi tindakan klik pada bottom navbar tv show
+	Memberi tindakan klik pada data pertama di rv_tvshows
+	Memberi tindakan klik pada menu favorite.
+	Memberi tindakan kembali ke awal.
+	Memberi tindakan klik pada bottom navbar favorite.
+	Memastikan rv_tvshows dalam keadaan tampil.
+	Memberi tindakan klik pada data pertama di rv_movies.
+	Memastikan TextView untuk title tampil.
+	Memastikan TextView untuk popular tampil.
+	Memastikan TextView untuk first release date tampil.
+	Memastikan TextView untuk userScore tampil.
+	Memastikan TextView untuk language tampil.
+	Memastikan TextView untuk overview tampil.
+	Memberi tindakan kembali ke awal.
